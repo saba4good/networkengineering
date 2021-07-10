@@ -14,8 +14,8 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
-baseurl:
+url: https://saba4good.github.io/
+baseurl: /networkengineering
 permalink: pretty
 
 # Pagination
@@ -86,7 +86,7 @@ keywords: ""
 rss:
 
 # Specify the date when the site was setup
-since: 2017
+since: 2021
 
 # icon between year and author @Footer
 #authoricon: heart #commented out by me
