@@ -1,1 +1,1 @@
-This is a blog for codes and some math.
+A blog about computer network engineering.
