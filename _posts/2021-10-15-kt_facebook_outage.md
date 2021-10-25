@@ -22,6 +22,11 @@ ttl이 고작 64라고 해도(실제로는 128도 있을 거고), 짧은 시간 
 어쨌든 네트웍 장비가 외부 개입없이 오류를 일으켜서 라우팅 오류를 내는 경우는 없다고 봐도 될 것 같다.
 패킷을 버린다든가 재부팅이 된다든가 hang이 걸린다든가 할 수는 있겠지만.
 
+참고로 Cloudflare에서 페이스북 장애가 있던 시간에 인터넷이 어떻게 반응했는지에 대해 쓴 글도 재미있다. 
+페이스북이 다운되자 뉴스 사이트나 트위터가 북적북적해진건 쉽게 예견할 수 있지만, 게임 사이트도 부스트되었다고 한다. [3]
+
 [1] https://zdnet.co.kr/view/?no=20211025165808
 
 [2] https://engineering.fb.com/2021/10/05/networking-traffic/outage-details/
+
+[3] https://blog.cloudflare.com/during-the-facebook-outage/
