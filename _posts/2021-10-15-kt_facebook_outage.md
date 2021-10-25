@@ -23,4 +23,5 @@ ttl이 고작 64라고 해도(실제로는 128도 있을 거고), 짧은 시간 
 패킷을 버린다든가 재부팅이 된다든가 hang이 걸린다든가 할 수는 있겠지만.
 
 [1] https://zdnet.co.kr/view/?no=20211025165808
+
 [2] https://engineering.fb.com/2021/10/05/networking-traffic/outage-details/
