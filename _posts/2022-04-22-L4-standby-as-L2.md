@@ -6,6 +6,7 @@ tags: [l4, l4 standby, host routing]
 L4의 slb 서비스를 받고 있는 서버를 같은 대역의 client가 호출하게 되면 어떻게 될까?
 
 Alteon L4 장비를 hot standby 모드로 사용하게 되면, STP가 동작하지 않으면서 standby 장비는 L2 장비처럼 동작하게 되어 있다. 이때 공교롭게도 서버와 클라이언트 노드가 모두 L4 standby 장비 아래에 붙어있다면 어떨까? (그림 1.0 참조) 혹은 L4의 아랫단에 확장 스위치가 있는데, 그 확장스위치에 서버와 클라이언트 노드가 붙어있으면 어떨까?
+
 ![그림 1.0](/networkengineering/docs/assets/images/l4_hot-standby_inline.png)
 
 클라이언트(IP 10.1.1.20)가 서버 VIP 10.1.1.9를 호출하는 패킷은 L4 #1을 통과할 것이다.
