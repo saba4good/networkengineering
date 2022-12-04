@@ -1,5 +1,14 @@
 {% assign posts = site.posts %}
 {% if site.paginate > 0 %}{% assign posts = paginator.posts %}{% endif %}
+<!--
+  '_includes/_third-party/analytics'에 ga.js를 사용하는 google-analytics.html이 있는데
+  이것을 '_includes/google-analytics.html'으로 변경해줘야 함.
+  (ref: https://stackoverflow.com/questions/72930958/google-analytics-sending-data-but-no-records-found, 
+  https://support.google.com/analytics/answer/10271001)
+-->
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include google-analytics.html %}
+{% endif %}
 
 <section id="posts" class="posts-expand">
   {% for post in posts %}
