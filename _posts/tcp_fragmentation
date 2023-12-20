@@ -1,0 +1,13 @@
+---
+title: TCP Fragmentation, 그 헷갈리는 것
+date: 2023-12-20
+tags: [tcp, fragmentation]
+---
+
+
+![그림 1.0](/networkengineering/docs/assets/images/l4_sessions-1.png)
+
+주석 필요 문장[^1]
+
+
+[^1]: 주석
